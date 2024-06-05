@@ -1,0 +1,24 @@
+name: currency_converter
+description: A simple currency converter app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/usd.png
+    - assets/eur.png
+    - assets/gbp.png
+    - assets/inr.png
+    - assets/jpy.png
+    - assets/kzt.png
+    - assets/rub.png
